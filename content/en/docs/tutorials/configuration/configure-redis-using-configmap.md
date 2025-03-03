@@ -407,6 +407,13 @@ Clean up your work by deleting the resources you created during this tutorial:
 kubectl delete pod/redis configmap/example-redis-config
 ```
 
+You can also shut down minikube completely at this point:
+
+```shell
+minikube stop
+minikube delete
+```
+
 ## Next steps
 
 * Learn more about working with [ConfigMaps](/docs/tasks/configure-pod-container/configure-pod-configmap/).
